@@ -20,7 +20,7 @@ So you found a bug? Or perhaps you just want to improve something? Patches are w
 
 ## Backers
 
-Busy is an MIT-licensed open source project. It's an independent project with its ongoing development made possible entirely thanks to the support by these awesome backers.
+Steemlinked is an MIT-licensed open source project. It's an independent project with its ongoing development made possible entirely thanks to the support by these awesome backers.
 
 
 @aneilpatel - developer 
