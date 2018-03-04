@@ -59,6 +59,26 @@ class Topnav extends React.Component {
     return (
       <div className="Topnav__menu-container">
         <Menu selectedKeys={[]} className="Topnav__menu-container__menu" mode="horizontal">
+          <Menu.Item key="project">
+            <Tooltip
+              placement="bottom"
+              title={intl.formatMessage({ id: 'project', defaultMessage: 'Project' })}
+            >
+              <Link to="/editor" className="Topnav__link">
+                <i className="iconfont icon-write" />
+              </Link>
+            </Tooltip>
+          </Menu.Item>
+          <Menu.Item key="service">
+            <Tooltip
+              placement="bottom"
+              title={intl.formatMessage({ id: 'service', defaultMessage: 'Service' })}
+            >
+              <Link to="/editor" className="Topnav__link">
+                <i className="iconfont icon-write" />
+              </Link>
+            </Tooltip>
+          </Menu.Item>
           <Menu.Item key="write">
             <Tooltip
               placement="bottom"
