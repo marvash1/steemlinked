@@ -83,7 +83,7 @@ class Page extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Busy</title>
+          <title>Steemlinked</title>
         </Helmet>
         <ScrollToTop />
         <ScrollToTopOnMount />
