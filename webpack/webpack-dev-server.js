@@ -21,7 +21,7 @@ module.exports = {
         SENTRY_PUBLIC_DSN: null,
         STEEMCONNECT_CLIENT_ID: JSON.stringify(process.env.STEEMCONNECT_CLIENT_ID || 'steemlinked.app'),
         STEEMCONNECT_REDIRECT_URL: JSON.stringify(
-          process.env.STEEMCONNECT_REDIRECT_URL || 'Https://steemlinked.herokuapp.com/callback/',
+          process.env.STEEMCONNECT_REDIRECT_URL || 'Http://localhost:3000/callback/',
         ),
         STEEMCONNECT_HOST: JSON.stringify(
           process.env.STEEMCONNECT_HOST || 'https://v2.steemconnect.com',
