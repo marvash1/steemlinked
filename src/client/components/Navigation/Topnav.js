@@ -143,7 +143,7 @@ class Topnav extends React.Component {
           <div className="left">
             <Link className="Topnav__brand" to="/">
               <img src={"/images/logo.png"} alt="" className="logo"></img>
-              <span className="iconfont">SteemLinked</span>
+              <span className="logotxt">SteemLinked</span>
             </Link>
           </div>
           <div className={classNames('center', { mobileVisible: searchBarActive })}>
