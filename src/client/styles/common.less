@@ -47,7 +47,7 @@ video {
 }
 
 .iconfont {
-  font-size: 26px;
+  font-size: 24px;
 }
 
 .capitalize-text {
@@ -65,3 +65,27 @@ iframe {
 .float-right {
   float: right;
 }
+
+.logo {
+  width: 25px;
+  height: 25px;
+  margin-right: 3px;
+}
+
+@media @smartphone {
+  .iconfont { display: none }
+  .logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 3px;
+    margin-top: 7px;
+  }
+}
+
+@media @laptop {
+  .iconfont { font-size: 21px }
+}
+
+
+
+

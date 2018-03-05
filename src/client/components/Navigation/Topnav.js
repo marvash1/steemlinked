@@ -59,26 +59,6 @@ class Topnav extends React.Component {
     return (
       <div className="Topnav__menu-container">
         <Menu selectedKeys={[]} className="Topnav__menu-container__menu" mode="horizontal">
-          <Menu.Item key="project">
-            <Tooltip
-              placement="bottom"
-              title={intl.formatMessage({ id: 'project', defaultMessage: 'Project' })}
-            >
-              <Link to="/editor" className="Topnav__link">
-                <i className="iconfont icon-write" />
-              </Link>
-            </Tooltip>
-          </Menu.Item>
-          <Menu.Item key="service">
-            <Tooltip
-              placement="bottom"
-              title={intl.formatMessage({ id: 'service', defaultMessage: 'Service' })}
-            >
-              <Link to="/editor" className="Topnav__link">
-                <i className="iconfont icon-write" />
-              </Link>
-            </Tooltip>
-          </Menu.Item>
           <Menu.Item key="write">
             <Tooltip
               placement="bottom"
@@ -162,7 +142,8 @@ class Topnav extends React.Component {
         <div className="topnav-layout container">
           <div className="left">
             <Link className="Topnav__brand" to="/">
-              <img src={"/images/logo.png"} alt="" style={{width: 25, height: 25, marginRight: 3}}></img><span style={{fontSize: 25}}>SteemLinked</span>
+              <img src={"/images/logo.png"} alt="" className="logo"></img>
+              <span className="iconfont">SteemLinked</span>
             </Link>
           </div>
           <div className={classNames('center', { mobileVisible: searchBarActive })}>
